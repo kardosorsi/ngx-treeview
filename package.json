@@ -1,6 +1,6 @@
 {
-  "name": "angular-ngx-treeview",
-  "version": "0.0.0",
+  "name": "sc-ngx-treeview",
+  "version": "10.0.0",
   "license": "MIT",
   "description": "An Angular treeview component with checkbox",
   "scripts": {
@@ -13,7 +13,7 @@
     "e2e": "ng e2e",
     "deploy": "ng build --prod --base-href /ngx-treeview/ && node gh-pages.js"
   },
-  "private": true,
+  "private": false,
   "keywords": [
     "ng",
     "ngx",
@@ -27,13 +27,13 @@
     "recursive",
     "angular tree component"
   ],
-  "author": "Leo Vo <leovo2708@gmail.com>",
+  "author": "Orsolya Kardos <orsolya.kardos@yahoo.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leovo2708/ngx-treeview.git"
+    "url": "git+https://github.com/kardosorsi/ngx-treeview.git"
   },
   "bugs": {
-    "url": "https://github.com/leovo2708/ngx-treeview/issues"
+    "url": "https://github.com/kardosorsi/ngx-treeview/issues"
   },
   "dependencies": {
     "@angular/animations": "~10.0.2",
@@ -73,5 +73,7 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~3.9.5"
-  }
+  },
+  "homepage": "https://github.com/kardosorsi/ngx-treeview#readme",
+  "main": "gh-pages.js"
 }
